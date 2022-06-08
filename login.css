@@ -1,0 +1,74 @@
+#logIn {
+    height: 664px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 84px; */
+}
+
+#logIn .logInForm:nth-child(1) {
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+#logIn .logInForm:nth-child(2) {
+    background-color: #333;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logIn .logInForm {
+    width: 642px;
+    height: 496px;
+}
+
+#logIn .logInForm img {
+    width: 640px;
+    height: 427px;
+}
+
+#logIn .logInForm h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+#logIn .logInForm form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#logIn .logInForm form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#logIn .logInForm form .form-group label {
+    font-weight: 600;
+}
+
+#logIn .logInForm form .form-group input {
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+}
+
+#logIn .logInForm form .form-group button {
+    border: none;
+    padding: 8px 28px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#logIn .logInForm form .form-group button:hover {
+    background-color: gray;
+    color: #fff;
+    transition: .3s ease-in-out;
+}

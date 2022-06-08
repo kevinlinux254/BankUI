@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+/* NAVIGATION MENU */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+nav .logo {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav .logo:hover {
+    color: grey;
+    transition: .3s ease-in-out;
+}
+
+
+nav .navLink {
+    display: flex;
+}
+
+nav .navLink li {
+    padding: 0 12px;
+    list-style-type: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    font-weight: 400;
+}
+
+nav .navLink li:hover {
+    color: gray;
+    transition: .3s ease-in-out;
+}
+
+nav .navLink li:nth-child(4) a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* INTRODUCTION TO MASYOPNET BANK OF KENYA */
+
+#intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gainsboro;
+    padding: 80px 0;
+    background-color: gainsboro;
+}
+
+#intro .intro1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: dimgray;
+    padding-bottom: 58px;
+}
+
+#intro .intro2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#intro .intro2 .serve {
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid darkslategray;
+    border-radius: 14px;
+    cursor: pointer;
+    height: 150px;
+    width: 250px;
+}
+
+#intro .intro2 .serve h4 {
+    font-size: 19px;
+}
+
+#intro .intro2 .serve .fa-solid {
+    font-size: 30px;
+    color: dimgray;
+}
+
+#intro .intro2 .serve:hover {
+    color: darkslategray;
+}
+
+/* FOOTER FORMATTING */
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+footer .info {
+    padding: 25px 45px;
+}
+
+footer .info h2 {
+    font-size: 20px;
+    color: gray;
+}
+
+footer .info p {
+    padding: 5px 0px;
+}
+
+footer .info p a {
+    text-decoration: none;
+    color: darkslategray;
+    transition: .3s ease-in-out;
+}
+
+footer .info p a:hover {
+    color: dimgray;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+}
